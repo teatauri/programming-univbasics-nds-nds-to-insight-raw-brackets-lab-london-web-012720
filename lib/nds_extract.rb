@@ -1,10 +1,9 @@
 $LOAD_PATH.unshift(File.dirname(__FILE__))
 require 'directors_database'
+# pp directors_database
 
 def directors_totals(nds)
-  
-nds = directors_database 
-outer = 0 # the director's 
+outer = 0 # the specific director 
 hash = {} 
   while outer < nds.length do 
     total = 0 
